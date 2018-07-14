@@ -1,22 +1,23 @@
 {
-  "name": "apidesignnodejs",
+  "name": "node-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js",
+    "test": ""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/surendrasinghtanwar93/apiDesignNodejs.git"
-  },
-  "author": "Surendrasingh",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/surendrasinghtanwar93/apiDesignNodejs/issues"
-  },
-  "homepage": "https://github.com/surendrasinghtanwar93/apiDesignNodejs#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.13.2",
+    "colors": "^1.1.2",
+    "express": "^4.13.1",
+    "lodash": "^3.10.0",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "supertest": "^1.0.1"
   }
 }
